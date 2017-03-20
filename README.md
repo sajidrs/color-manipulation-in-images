@@ -6,8 +6,12 @@
 #### Program 1
 - The input to the program is a width and a height.
 - The output is two images of dimensions width × height that are displayed on the screen.
-- For the xy image, the pixel at row i and column j should have the color value:x = j/width, y = i/height, Y = 1
-- For the Luv image, the pixel at row i and column j should have the color value: L = 90, u = 512 ∗ j/width − 255, v = 512 ∗ i/height − 255
+- For the xy image, the pixel at row i and column j should have the color value:
+  
+  x = j/width, y = i/height, Y = 1
+- For the Luv image, the pixel at row i and column j should have the color value: 
+  
+  L = 90, u = 512 ∗ j/width − 255, v = 512 ∗ i/height − 255
 
 ## Part B
 - Change the color of the image based on a histogram computed from a window in the image.
